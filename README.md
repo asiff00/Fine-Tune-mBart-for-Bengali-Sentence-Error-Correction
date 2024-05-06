@@ -1,5 +1,11 @@
 # Fine-Tuning mBart for Bengali Sentence Error Correction
 
+[![Training Notebook](https://img.shields.io/badge/View-Training%20Notebook-blue?style=flat-square&logo=Jupyter)](finetune.ipynb)
+[![Hugging Face Demo](https://img.shields.io/badge/Try-Hugging%20Face%20Demo-brightgreen?style=flat-square&logo=huggingface)](https://huggingface.co/spaces/asif00/Bengali_Sentence_Error_Correction__mbart_bn_error_correction)
+[![Fine-Tuned Model](https://img.shields.io/badge/Fine--Tuned%20Model-Repository-red?style=flat-square&logo=github)](https://github.com/himisir/Bengali-Sentence-Error-Correction)
+
+
+
 ## Overview
 
 Fine-tuning the mBart model to correct grammatical and syntactical errors in Bengali sentences. The aim is to achieve high accuracy in transforming incorrect sentences into their correct form. The full training process can be found here: [Notebook](finetune.ipynb) Here is a live [HuggingFace Demo](https://huggingface.co/spaces/asif00/Bengali_Sentence_Error_Correction__mbart_bn_error_correction) of the finetune model in action. 
