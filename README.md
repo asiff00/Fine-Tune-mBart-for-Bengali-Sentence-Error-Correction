@@ -2,7 +2,7 @@
 
 ## Overview
 
-Fine-tuning the mBart model to correct grammatical and syntactical errors in Bengali sentences. The aim is to achieve high accuracy in transforming incorrect sentences into their correct form. Full training process can be found here: [Notebook](finetune.ipynb)
+Fine-tuning the mBart model to correct grammatical and syntactical errors in Bengali sentences. The aim is to achieve high accuracy in transforming incorrect sentences into their correct form. The full training process can be found here: [Notebook](finetune.ipynb) Here is a live [HuggingFace Demo](https://huggingface.co/spaces/asif00/Bengali_Sentence_Error_Correction__mbart_bn_error_correction) of the finetune model in action. 
 
 ### Base Model
 
@@ -34,4 +34,4 @@ Max Token Length: 32
 | BLEU   | 0.805    | 0.443                 |
 | CER    | 0.053    | 0.159                 |
 | WER    | 0.101    | 0.406                 |
-| Meteor | 0.904    | 0.6                   |
+| Meteor | 0.904    | 0.655                 |
